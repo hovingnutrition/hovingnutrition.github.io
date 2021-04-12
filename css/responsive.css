@@ -1,0 +1,42 @@
+@media (min-width: 801px) {
+    .footer {
+        max-width: 66%;
+    }
+    .container {
+        padding: 10vh 0vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .bio,
+    .footer,
+    .network {
+        max-width: 95%;
+    }
+    .container {
+        padding: 3vh 4vw;
+    }
+    .main-logo {
+        width: 95%;
+        text-align: center;
+    }
+    .social-icons {
+        width: 95%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fs-me {
+        padding: 5vh 5vw;
+        text-align: center;
+    }
+    .fs-me .me-content {
+        height: 90vh;
+    }
+    .logo {
+        -webkit-align-self: center;
+        align-self: center;
+    }
+}
